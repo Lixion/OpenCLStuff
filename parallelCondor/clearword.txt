@@ -1,0 +1,12 @@
+CUID	   hash:			     clear word
+
+554203341  abb45fdc12b3e45df9640ac76fa1ccf8: artisans
+
+1.3: 1.1 has 24^4 comparisons while 1.2 has 24^8
+
+676(nodes) * 1 socket * 2 Cores * 2.2GHz * (2*2)opts = 1.2 exe time
+1(my computer)* 1(my computer) * 2 * 2.2 * (2*2)opts = 1.1 exe time
+
+26^8/1.1 exe time = 1.1865174123636364×10^ 10 secs
+1.2exe time / 1.1exe time = a speed up of 676
+Speed up of 676 assuming (All workers have 2 cores and run at 2.2GHz)

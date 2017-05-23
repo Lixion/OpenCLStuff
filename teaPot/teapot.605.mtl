@@ -1,0 +1,9 @@
+#  Custom OBJ
+newmtl look
+Ka 0.00 0.00 0.00 
+Kd 1.00 0.80 0.70
+Ks 0.35 0.35 0.35
+Ns 60.0
+map_Kd blue.PPM
+map_normal snake_nrm.PPM
+

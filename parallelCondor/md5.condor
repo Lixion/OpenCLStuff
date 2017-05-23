@@ -1,0 +1,18 @@
+universe=vanilla
+requirements= OpsSys=="WINNT61" && Arch=="X86_64"
+environment=path=c:\winnt\system32
+executable=md5.bat
+input=dictionary.py
+
+arguments=$(Process)
+
+should_transfer_files=YES
+when_to_transfer_output=ON_EXIT
+
+output=key.out
+error=errorkey.err
+log=keylog.log
+notification=never
+
+queue 676
+

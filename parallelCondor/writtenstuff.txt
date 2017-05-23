@@ -1,0 +1,6 @@
+2.1 Condor Features
+1. Workers can communicate with each other.
+2. Condor has a multiplicity of resources.
+3. Condor is able to match jobs to machines with the highest-ranking requirements.
+
+Group: Damien Harsany & Adam Volin
